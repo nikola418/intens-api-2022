@@ -3,7 +3,7 @@ name: Deploy
 env:
   SERVICE_NAME: intens-api
   PROJECT_ID: intens-api
-  DOCKER_IMAGE_URL: registry.hub.docker.com/repository/docker/nikola418/intens-api
+  DOCKER_IMAGE_URL: docker.io/nikola418/intens-api
 
 on:
   workflow_run:
