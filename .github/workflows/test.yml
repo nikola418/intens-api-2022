@@ -13,6 +13,7 @@ jobs:
       with:
         java-version: '8'
         distribution: 'temurin'
+        cache: 'maven'
     - name: Run the Maven test phase
       run: mvn test
       env:
